@@ -1,0 +1,335 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Assignment Bootstrap</title>
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;0,1000;1,200;1,300;1,400;1,500;1,600;1,900;1,1000&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <!-- Navigation Bar -->
+    <div class="container-fluid">
+        <!-- Fixed Horizontal scroll bar here-->
+        <div class="row">
+            <nav class="col-sm-2 bg-dark">
+                <div class="p-5">
+                    <h1 class="text-white"> Dashboard Kit</h1>
+                    <li class="nav-item">
+                        <ul class="navbar-nav ">
+                            <li class="nav-item">
+                                <a class="nav-link text-white" href="#"><svg xmlns="http://www.w3.org/2000/svg"
+                                        width="16" height="15.06" fill="#DDE2FF" class="bi bi-pie-chart-fill"
+                                        viewBox="0 0 16 16">
+                                        <path
+                                            d="M15.985 8.5H8.207l-5.5 5.5a8 8 0 0 0 13.277-5.5zM2 13.292A8 8 0 0 1 7.5.015v7.778l-5.5 5.5zM8.5.015V7.5h7.485A8.001 8.001 0 0 0 8.5.015z" />
+                                    </svg>
+                                    Overview</a>
+                            </li>
+                    </li>
+                    <!-- Tickets -->
+                    <li class="nav-item">
+                        <ul class="navbar-nav ">
+                            <li class="nav-item">
+                                <a class="nav-link  text-white" href="#"><svg xmlns="http://www.w3.org/2000/svg"
+                                        width="16" height="10.67" fill="#9FA2B4" opacity="40%"
+                                        class="bi bi-ticket-detailed-fill" viewBox="0 0 16 16">
+                                        <path
+                                            d="M0 4.5A1.5 1.5 0 0 1 1.5 3h13A1.5 1.5 0 0 1 16 4.5V6a.5.5 0 0 1-.5.5 1.5 1.5 0 0 0 0 3 .5.5 0 0 1 .5.5v1.5a1.5 1.5 0 0 1-1.5 1.5h-13A1.5 1.5 0 0 1 0 11.5V10a.5.5 0 0 1 .5-.5 1.5 1.5 0 1 0 0-3A.5.5 0 0 1 0 6V4.5Zm4 1a.5.5 0 0 0 .5.5h7a.5.5 0 0 0 0-1h-7a.5.5 0 0 0-.5.5Zm0 5a.5.5 0 0 0 .5.5h7a.5.5 0 0 0 0-1h-7a.5.5 0 0 0-.5.5ZM4 8a1 1 0 0 0 1 1h6a1 1 0 1 0 0-2H5a1 1 0 0 0-1 1Z" />
+                                    </svg>Tickets</a>
+                            </li>
+                    </li>
+                    <!-- Ideas-->
+                    <li class="nav-item">
+                        <ul class="navbar-nav ">
+                            <li class="nav-item">
+                                <a class="nav-link  text-white" href="#"><svg xmlns="http://www.w3.org/2000/svg"
+                                        width="11" height="16" fill="#9FA2B4" opacity="40%" class="bi bi-lightbulb-fill"
+                                        viewBox="0 0 16 16">
+                                        <path
+                                            d="M2 6a6 6 0 1 1 10.174 4.31c-.203.196-.359.4-.453.619l-.762 1.769A.5.5 0 0 1 10.5 13h-5a.5.5 0 0 1-.46-.302l-.761-1.77a1.964 1.964 0 0 0-.453-.618A5.984 5.984 0 0 1 2 6zm3 8.5a.5.5 0 0 1 .5-.5h5a.5.5 0 0 1 0 1l-.224.447a1 1 0 0 1-.894.553H6.618a1 1 0 0 1-.894-.553L5.5 15a.5.5 0 0 1-.5-.5z" />
+                                    </svg>Ideas</a>
+                            </li>
+                    </li>
+                    <!-- Contacts -->
+                    <li class="nav-item">
+                        <ul class="navbar-nav ">
+                            <li class="nav-item">
+                                <a class="nav-link  text-white" href="#"><svg xmlns="http://www.w3.org/2000/svg"
+                                        width="16" height="11.2" fill="#9FA2B4" class="bi bi-people-fill" opacity="40%"
+                                        viewBox="0 0 16 16">
+                                        <path
+                                            d="M7 14s-1 0-1-1 1-4 5-4 5 3 5 4-1 1-1 1H7Zm4-6a3 3 0 1 0 0-6 3 3 0 0 0 0 6Zm-5.784 6A2.238 2.238 0 0 1 5 13c0-1.355.68-2.75 1.936-3.72A6.325 6.325 0 0 0 5 9c-4 0-5 3-5 4s1 1 1 1h4.216ZM4.5 8a2.5 2.5 0 1 0 0-5 2.5 2.5 0 0 0 0 5Z" />
+                                    </svg>Contacts</a>
+                            </li>
+                    </li>
+                    <!-- Agents -->
+                    <li class="nav-item">
+                        <ul class="navbar-nav ">
+                            <li class="nav-item">
+                                <a class="nav-link  text-white" href="#"> <svg xmlns="http://www.w3.org/2000/svg"
+                                        width="14" height="16" fill="#9FA2B4" opacity="40%" class="bi bi-person-fill"
+                                        viewBox="0 0 16 16">
+                                        <path
+                                            d="M3 14s-1 0-1-1 1-4 6-4 6 3 6 4-1 1-1 1H3Zm5-6a3 3 0 1 0 0-6 3 3 0 0 0 0 6Z" />
+                                    </svg>Agents</a>
+                            </li>
+                    </li>
+                    <!-- Articles -->
+                    <li class="nav-item">
+                        <ul class="navbar-nav ">
+                            <li class="nav-item pb-5">
+                                <a class="nav-link  text-white" href="#"> <svg xmlns="http://www.w3.org/2000/svg"
+                                        width="14" height="16" fill="#9FA2B4" opacity="40%" class="bi bi-journal-text"
+                                        viewBox="0 0 16 16">
+                                        <path
+                                            d="M5 10.5a.5.5 0 0 1 .5-.5h2a.5.5 0 0 1 0 1h-2a.5.5 0 0 1-.5-.5zm0-2a.5.5 0 0 1 .5-.5h5a.5.5 0 0 1 0 1h-5a.5.5 0 0 1-.5-.5zm0-2a.5.5 0 0 1 .5-.5h5a.5.5 0 0 1 0 1h-5a.5.5 0 0 1-.5-.5zm0-2a.5.5 0 0 1 .5-.5h5a.5.5 0 0 1 0 1h-5a.5.5 0 0 1-.5-.5z" />
+                                        <path
+                                            d="M3 0h10a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2v-1h1v1a1 1 0 0 0 1 1h10a1 1 0 0 0 1-1V2a1 1 0 0 0-1-1H3a1 1 0 0 0-1 1v1H1V2a2 2 0 0 1 2-2z" />
+                                        <path
+                                            d="M1 5v-.5a.5.5 0 0 1 1 0V5h.5a.5.5 0 0 1 0 1h-2a.5.5 0 0 1 0-1H1zm0 3v-.5a.5.5 0 0 1 1 0V8h.5a.5.5 0 0 1 0 1h-2a.5.5 0 0 1 0-1H1zm0 3v-.5a.5.5 0 0 1 1 0v.5h.5a.5.5 0 0 1 0 1h-2a.5.5 0 0 1 0-1H1z" />
+                                    </svg>Articles</a>
+                            </li>
+                    </li>
+                    <!-- Settings -->
+                    <li class="nav-item">
+                        <ul class="navbar-nav ">
+                            <li class="nav-item ">
+                                <a class="nav-link  text-white" href="#">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="14.84" height="15.5" fill="#9FA2B4"
+                                        opacity="40%" class="bi bi-gear-fill" viewBox="0 0 16 16">
+                                        <path
+                                            d="M9.405 1.05c-.413-1.4-2.397-1.4-2.81 0l-.1.34a1.464 1.464 0 0 1-2.105.872l-.31-.17c-1.283-.698-2.686.705-1.987 1.987l.169.311c.446.82.023 1.841-.872 2.105l-.34.1c-1.4.413-1.4 2.397 0 2.81l.34.1a1.464 1.464 0 0 1 .872 2.105l-.17.31c-.698 1.283.705 2.686 1.987 1.987l.311-.169a1.464 1.464 0 0 1 2.105.872l.1.34c.413 1.4 2.397 1.4 2.81 0l.1-.34a1.464 1.464 0 0 1 2.105-.872l.31.17c1.283.698 2.686-.705 1.987-1.987l-.169-.311a1.464 1.464 0 0 1 .872-2.105l.34-.1c1.4-.413 1.4-2.397 0-2.81l-.34-.1a1.464 1.464 0 0 1-.872-2.105l.17-.31c.698-1.283-.705-2.686-1.987-1.987l-.311.169a1.464 1.464 0 0 1-2.105-.872l-.1-.34zM8 10.93a2.929 2.929 0 1 1 0-5.86 2.929 2.929 0 0 1 0 5.858z" />
+                                    </svg>Settings</a>
+                            </li>
+                    </li>
+                    <!-- Subscription -->
+                    <li class="nav-item">
+                        <ul class="navbar-nav ">
+                            <li class="nav-item ">
+                                <a class="nav-link  text-white" href="#"> <svg xmlns="http://www.w3.org/2000/svg"
+                                        width="12" height="16" fill="#9FA2B4" opacity="40%" class="bi bi-award-fill"
+                                        viewBox="0 0 16 16">
+                                        <path
+                                            d="m8 0 1.669.864 1.858.282.842 1.68 1.337 1.32L13.4 6l.306 1.854-1.337 1.32-.842 1.68-1.858.282L8 12l-1.669-.864-1.858-.282-.842-1.68-1.337-1.32L2.6 6l-.306-1.854 1.337-1.32.842-1.68L6.331.864 8 0z" />
+                                        <path
+                                            d="M4 11.794V16l4-1 4 1v-4.206l-2.018.306L8 13.126 6.018 12.1 4 11.794z" />
+                                    </svg>Subscription</a>
+                            </li>
+                    </li>
+                </div>
+            </nav>
+            <main class="col-10 px-5 bg-light">
+                <section>
+                    <div class="d-flex justify-content-between align-items-center">
+                        <p class="py-5  fw- bold font-family:'Mulish', sans-serif">Overview</p>
+                        <div class="d-flex">
+                            <div class="mx-5">
+                                <svg class="mx-2" xmlns="http://www.w3.org/2000/svg" width="14" height="16"
+                                    fill="#C5C7CD" class="bi bi-bell-fill" viewBox="0 0 16 16">
+                                    <path
+                                        d="M8 16a2 2 0 0 0 2-2H6a2 2 0 0 0 2 2zm.995-14.901a1 1 0 1 0-1.99 0A5.002 5.002 0 0 0 3 6c0 1.098-.5 6-2 7h14c-1.5-1-2-5.902-2-7 0-2.42-1.72-4.44-4.005-4.901z" />
+                                </svg>
+                                <svg class="mx-2" xmlns="http://www.w3.org/2000/svg" width="13" height="13"
+                                    fill="#C5C7CD" class="bi bi-search" viewBox="0 0 16 16">
+                                    <path
+                                        d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z" />
+                                </svg>
+                            </div>
+
+                            <p class="">Jones Ferdinand </p>
+
+                        </div>
+                    </div>
+
+                    <!-- Four Cards on Top -->
+                    <div class="d-flex justify-content-between mx-5 mb-5">
+                        <div class=" bg-white text-center p-5">
+                            <h3 class="flex-nowrap mb-3">Unresolved</h3>
+                            <div class=" bg-white  ">60</div>
+                        </div>
+                        <div class="bg-white text-center p-5">
+                            <h3 class="flex-nowrap mb-3">Overdue</h3>
+                            <div class=" container card-body bg-light ">36</div>
+                        </div>
+                        <div class="bg-white text-center p-5">
+                            <h3 class="flex-nowrap mb-3">Open</h3>
+                            <div class=" container card-body bg-light ">43</div>
+                        </div>
+                        <div class="bg-white text-center p-5">
+                            <h3 class="flex-nowrap mb-3">On hold</h3>
+                            <div class=" container card-body bg-light ">64</div>
+                        </div>
+                    </div>
+                </section>
+                <!--Todays Trend -->
+                <section class="m-5 card ps-5">
+                    <div class="row">
+                        <div class="col-sm-8 mt-5">
+                            <h2>Todays Trend</h2>
+                            <div class="d-flex justify-content-between mt-5">
+                                <p>as of 25th May 2019 09:41 pm</p>
+                                <div>
+                                    <span class="mx-5">Today</span>
+                                    <span>Yesterday</span>
+                                </div>
+                            </div>
+                            <img class="w-100 mt-5" src="/full graph.png" />
+
+                        </div>
+                        <div class="col-sm-4">
+                            <div class="text-center border py-5">
+                                <h4>Resolved</h4>
+                                <p class="">449</p>
+                            </div>
+                            <div class="text-center border py-5">
+                                <h4>Received</h4>
+                                <p class="">426</p>
+                            </div>
+                            <div class="text-center border py-5">
+                                <h4>Average first response time</h4>
+                                <p class="">33m</p>
+                            </div>
+                            <div class="border text-center py-5">
+                                <h4>Average response time</h4>
+                                <div class=" ">3h 8m</div>
+                            </div>
+                            <div class=" card text-center  py-5">
+                                <h4>Resolution with SLA</h4>
+                                <div class=" ">94%</div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <section class="row m-4 mt-5">
+                    <section class="col-sm-6 text-center pe-3 ps-0">
+                        <div class="card py-5 px-3">
+                            <div class="d-flex justify-content-between">
+                                <div class="text-start">
+                                    <h4>Unresolved Tickets</h4>
+                                    <div>
+                                        <span class="fw-light">Group:</span> <span>Support</span>
+                                    </div>
+                                </div>
+                                <p>View Details</p>
+                            </div>
+                            <div class="d-flex justify-content-between my-4 border-bottom">
+                                <h5> on Feature Request</h5>
+                                <p>4238</p>
+                            </div>
+                            <div class="d-flex justify-content-between my-4 border-bottom">
+                                <h5>Awaiting Customer Response</h5>
+                                <p>1005</p>
+                            </div>
+                            <div class="d-flex justify-content-between my-4 border-bottom">
+                                <h5>Awaiting Developer Fixt</h5>
+                                <p>914</p>
+                            </div>
+                            <div class="d-flex justify-content-between my-4 border-bottom">
+                                <h5>Pending</h5>
+                                <p>281</p>
+                            </div>
+                        </div>
+                    </section>
+                    <section class="col-sm-6 text-center ps-3 pe-0 ">
+                        <div class="card py-5 px-3">
+                            <div class="d-flex justify-content-between">
+                                <h3> Tasks</h3>
+                                <p>view all</p>
+                            </div>
+                            <div class="d-flex justify-content-between my-4 border-bottom">
+                                <span class="my-3">Create new task</span>
+                                <button type="button" class="btn" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="#9FA2B4"
+                                        class="bi bi-plus-square" viewBox="0 0 16 16">
+                                        <path
+                                            d="M14 1a1 1 0 0 1 1 1v12a1 1 0 0 1-1 1H2a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1h12zM2 0a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2H2z" />
+                                        <path
+                                            d="M8 4a.5.5 0 0 1 .5.5v3h3a.5.5 0 0 1 0 1h-3v3a.5.5 0 0 1-1 0v-3h-3a.5.5 0 0 1 0-1h3v-3A.5.5 0 0 1 8 4z" />
+                                    </svg>
+                                </button>
+                                <!-- Modal -->
+                                <div class="modal fade" id="exampleModal" tabindex="-1"
+                                    aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                    <div class="modal-dialog">
+                                        <div class="modal-content">
+                                            <div class="modal-header">
+                                                <h1 class="modal-title fs-5" id="exampleModalLabel">This is a Modal</h1>
+                                                <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                                    aria-label="Close"></button>
+                                            </div>
+                                            <div class="modal-body">
+                                                Add an Item Here
+                                            </div>
+                                            <div class="modal-footer">
+                                                <button type="button" class="btn btn-secondary"
+                                                    data-bs-dismiss="modal">Close</button>
+                                                <button type="button" class="btn btn-primary">Save changes</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="d-flex justify-content-between my-4 border-bottom pb-2">
+                                <div>
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="#9FA2B4"
+                                        class="bi bi-circle" viewBox="0 0 16 16">
+                                        <path
+                                            d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z" />
+                                    </svg>
+                                    <span class="mx-4">Ticket update</span>
+                                </div>
+                                <button type="button" class="btn btn-warning text-white rounded-4">URGENT</button>
+                            </div>
+                            <div class=" d-flex justify-content-between my-4 border-bottom pb-2">
+                                <div>
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="#9FA2B4"
+                                        class="bi bi-circle" viewBox="0 0 16 16">
+                                        <path
+                                            d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z" />
+                                    </svg>
+                                    <span class="mx-4">New ticket example</span>
+                                </div>
+                                <button type="button" class="btn btn-success text-white rounded-4">New</button>
+                            </div>
+                            <div class=" d-flex justify-content-between my-4 border-bottom pb-2">
+                                <div>
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="#3751FF"
+                                        class="bi bi-check-circle-fill" viewBox="0 0 16 16">
+                                        <path
+                                            d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zm-3.97-3.03a.75.75 0 0 0-1.08.022L7.477 9.417 5.384 7.323a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-.01-1.05z" />
+                                    </svg>
+                                    <span class="mx-4">Update ticket report</span>
+                                </div>
+                                <button type="button"
+                                    class="btn btn-secondary disabled text-white rounded-4">Default</button>
+                            </div>
+                        </div>
+                    </section>
+                </section>
+
+
+            </main>
+
+        </div>
+    </div>
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+        crossorigin="anonymous"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.4/Chart.js">
+    </script>
+</body>
+
+</html>

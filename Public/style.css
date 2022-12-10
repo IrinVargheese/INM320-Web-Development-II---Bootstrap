@@ -1,0 +1,4 @@
+/* Specifying font for all paragraph tags */
+p {
+    font-family: 'Mulish', sans-serif;
+}
